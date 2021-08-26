@@ -45,7 +45,7 @@ if __name__ == '__main__':
         else:
             print('inválido')
             sys.exit(1)
-    except TypeError:
+    except ValueError:
         print("opção não reconhecível")
     else:
         geraHash(escolha, palavra)
